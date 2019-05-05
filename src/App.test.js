@@ -17,13 +17,6 @@ test('renders without crashing', () => {
   shallow(<App />)
 })
 
-test('displays a message', () => {
-  const wrapper = shallow(<App />)
-  expect(wrapper.text()).toContain(
-    'BrewDog Beers after 2015 between 5%-11% ABV'
-  )
-})
-
 test('calls the brewDog API on loading', async () => {
   const getBeersSpy = jest.spyOn(axiosMock, 'getBeers')
   shallow(<App />)

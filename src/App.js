@@ -21,7 +21,7 @@ class App extends React.Component {
   render() {
     const { beers, canRender } = this.state
     if (!canRender) {
-      return <p>BrewDog Beers after 2015 between 5%-11% ABV</p>
+      return <div />
     } else {
       return (
         <ul>
