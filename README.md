@@ -4,7 +4,7 @@ An app that calls the BrewDog API and displays all beers brewed after 2015 with 
 
 `// pull the repo onto your local machine`
 
-`git clone `
+`git clone https://github.com/FergusLemon/BrewDogBeer.git`
 
 `// change into the root directory`
 
@@ -15,4 +15,5 @@ An app that calls the BrewDog API and displays all beers brewed after 2015 with 
 `npm install`
 
 `// run the app, should be being served on localhost:3000`
+
 `npm start`
