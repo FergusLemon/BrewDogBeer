@@ -4,16 +4,16 @@ An app that calls the BrewDog API and displays all beers brewed after 2015 with 
 
 1. Pull the repo onto your local machine
 
-`git clone https://github.com/FergusLemon/BrewDogBeer.git`
+`  git clone https://github.com/FergusLemon/BrewDogBeer.git`
 
 2. Change into the root directory
 
-`cd BrewDogBeer`
+`  cd BrewDogBeer`
 
 3. Install dependencies
 
-`npm install`
+`  npm install`
 
 4. Run the app, should be being served on localhost:3000
 
-`npm start`
+`  npm start`
