@@ -1,0 +1,43 @@
+.beer-image {
+  object-fit: contain;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.beer-name {
+  min-height: 50px;
+  text-align: center;
+}
+
+.beer-ingredients {
+  font-size: 10px;
+  padding: 5px 15px;
+}
+
+.beer-abv {
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 10px;
+  color: #FFF;
+  text-align: center;
+  padding-top: 5px;
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 200px;
+}
+
+[class*=Low] {
+  background-color: #52ff9d;
+}
+
+[class*=Medium] {
+  background-color: #ff9e52;
+}
+
+[class*=High] {
+  background-color: #ff525d;
+}
